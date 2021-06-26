@@ -164,12 +164,12 @@ $ head -68 data/parameters.txt
   ...
 ```
 
-## License
-```
-  Copyright University of Michigan.
-  This file is part of the LARMOR software suite and is made available under license.
-  See: LICENSE_COMMERICAL and LICENSE_NON-COMMERICAL   for licensing info
-  University of Michigan (UM) TECHtransfer: phone: 734-763-0614 email: techtransfer@umich.edu.  
-  Author: Sean M. Law, Aaron T. Frank and Charles L. Brooks III
+## COMMERCIAL USE LICENSE: 
 
-```
+If you are interested in commercial licensing of these applications (clinical, operational, etc.) please contact the University of Michigan Office of Technology Transfer for a quote and licensing options.
+
+Drew Bennett - https://techtransfer.umich.edu/team/drew-bennett/
+
+or
+
+techtransfer@umich.edu
