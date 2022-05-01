@@ -182,7 +182,7 @@ $ head -68 ${LarmorD_New}/data/larmorD_alphas_betas_rna.dat
 ```
 
 ## LARMORD-Q: 
-Using a database of DFT-derived shielding, a set of parameters were derived that enables LARMORD to be used to compute DFT-like shielding values directly from structure.
+Using a database of DFT-derived shielding values, parameters were trained that now enables LARMORD to be used to compute DFT-like shielding values directly from structure. To compute DFT-like shielding values from structure, uses just need to specify the appropriate parameter and reference files (see below). The ```-residueBased``` is need as well.
 ```
 # initialize
 pdb=2N1Q
