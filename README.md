@@ -183,15 +183,16 @@ $ head -68 ${LarmorD_New}/data/larmorD_alphas_betas_rna.dat
 
 ## LARMORD-Q: 
 Using a database of DFT-derived shielding values, parameters were trained that now enables LARMORD to be used to compute DFT-like shielding values directly from structure. To compute DFT-like shielding values from structure, uses just need to specify the appropriate parameter and reference files (see below). The ```-residueBased``` is need as well.
-```
+
+```shell
 # initialize
-pdb=2N1Q
-pdbfile=${LarmorD_New}/tests/${pdb}_1_min.pdb
+$ pdb=2N1Q
+$ pdbfile=${LarmorD_New}/tests/${pdb}_1_min.pdb
 
 # run LarmorD with AFNMR shielding parameters
-parameters=${LarmorD_New}/data/afnmr_shielding/larmorD_alphas_betas_rna.dat
-reference=${LarmorD_New}/data/afnmr_shielding/larmorD_reference_shifts_rna.dat
-${LarmorD_New}/bin/larmord -residueBased -identification ${pdb} -parmfile ${parameters} -reffile ${reference} -cutoff 9999.0 ${pdbfile}
+$ parameters=${LarmorD_New}/data/afnmr_shielding/larmorD_alphas_betas_rna.dat
+$ reference=${LarmorD_New}/data/afnmr_shielding/larmorD_reference_shifts_rna.dat
+$ ${LarmorD_New}/bin/larmord -residueBased -identification ${pdb} -parmfile ${parameters} -reffile ${reference} -cutoff 9999.0 ${pdbfile}
 ```
 should return
 ```
