@@ -388,22 +388,32 @@ void LARMORD::renameRes(Molecule *mol)
     mol->renameRes("RG","GUA");
     mol->renameRes("RG3","GUA");
     mol->renameRes("RG5","GUA");
+    mol->renameRes("G3","GUA");
+    mol->renameRes("G5","GUA");    
     mol->renameRes("G","GUA");  
+    
     /* ADE */
     mol->renameRes("RA","ADE");
     mol->renameRes("RA3","ADE");
     mol->renameRes("RA5","ADE");
     mol->renameRes("A","ADE");  
+    mol->renameRes("A3","ADE");
+    mol->renameRes("A5","ADE");    
     /* CYT */
     mol->renameRes("RC","CYT");
     mol->renameRes("RC3","CYT");
     mol->renameRes("RC5","CYT");
     mol->renameRes("C","CYT");  
+    mol->renameRes("C3","CYT");
+    mol->renameRes("C5","CYT");
     /* URA */
     mol->renameRes("RU","URA");
     mol->renameRes("RU3","URA");
     mol->renameRes("RU5","URA");
     mol->renameRes("U","URA");  
+    mol->renameRes("U3","URA");
+    mol->renameRes("U5","URA");
+    
     /* HIS */
     mol->renameRes("HID","HIS");
     mol->renameRes("HIE","HIS");
